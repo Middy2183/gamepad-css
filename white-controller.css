@@ -21,4 +21,5 @@ svg filter {
 .dpad {
     fill: #ffffff !important;
     stroke: #ffffff !important;
+    filter: none !important;
 }
