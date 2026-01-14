@@ -1,0 +1,24 @@
+/* Make entire controller white */
+svg,
+svg * {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* Remove shading, gradients, and filters */
+svg defs,
+svg linearGradient,
+svg radialGradient,
+svg filter {
+    display: none !important;
+}
+
+/* Optional: make buttons also white */
+.button,
+.trigger,
+.bumper,
+.stick,
+.dpad {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
