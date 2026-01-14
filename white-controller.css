@@ -3,6 +3,7 @@ svg,
 svg * {
     fill: #ffffff !important;
     stroke: #ffffff !important;
+    filter: none !important;
 }
 
 /* Remove shading, gradients, and filters */
