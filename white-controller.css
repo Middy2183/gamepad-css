@@ -3,7 +3,6 @@ svg,
 svg * {
     fill: #ffffff !important;
     stroke: #ffffff !important;
-    filter: none !important;
 }
 
 /* Remove shading, gradients, and filters */
@@ -12,9 +11,6 @@ svg linearGradient,
 svg radialGradient,
 svg filter {
     display: none !important;
-    fill: #ffffff !important;
-    stroke: #ffffff !important;
-    filter: none !important;
 }
 
 /* Optional: make buttons also white */
@@ -25,5 +21,4 @@ svg filter {
 .dpad {
     fill: #ffffff !important;
     stroke: #ffffff !important;
-    filter: none !important;
 }
